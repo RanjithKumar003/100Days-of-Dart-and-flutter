@@ -26,6 +26,14 @@ Hello world program
   print("Hellow world");
 }```
 
+output:
+Hello world
+
+why main() ?
+dart code does not execute without main function
+it start compilation from main
+outside function run through main function
+
 Data types and iable:
 
 6 types of data types are:
@@ -104,3 +112,22 @@ output:
 false
 hello
 HELLO
+
+What is dynamic?
+Dart is optionaly typed language
+static run and gives output when all the code is typed, but dynamic is line by line
+in static we should mention data types
+
+``` void main() {
+   var a = 7;
+   dynamic s  = "ranjith"             "var or dynamic is dynamic data type"
+   print(a is dynamic);
+   print(s);
+ }```
+ 
+ output:
+ true
+ ranjith
+ 
+
+ 
