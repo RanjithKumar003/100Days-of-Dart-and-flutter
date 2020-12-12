@@ -2,7 +2,7 @@ Anonymous function:
 
 The function without function name is anonymous function
 mostly used while creaing methods
-```syntex:
+```syntex
 () {
 statements;
 }````
