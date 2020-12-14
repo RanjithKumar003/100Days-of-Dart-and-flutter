@@ -8,6 +8,7 @@ var age = int.parse(stdin.readLineSync());  - int
 it cointains looping and branching statements and also break and continue.
 
 iF condition
+
 ```Syntax:
 if (condition){
   statement;
@@ -162,3 +163,78 @@ output:
 2
 1
 
+do-while:
+syntex:
+```in c
+  do{
+    statements:
+    inc/dec;
+  }
+  while (tc);
+}```
+
+```void main() {
+  int i = 0;
+  do{
+    print(i);
+    i++;
+  }
+  while (i<=6);
+}```
+
+output:
+0
+1
+2
+3
+4
+5
+6
+
+Break and continue and used in loops.
+
+Break:
+
+```void main() {
+  for(int i = 0; i == 10; i++){
+    print(i);
+    if (i == 6){
+      break;
+    }
+  }
+}```
+
+output:
+0
+1
+2
+3
+4
+5
+
+continue:
+
+```void main() {
+  for(int i = 0; i == 10; i++){
+    print(i);
+    if (i == 6){
+      continue;
+    }
+    print(i);
+  }
+}```
+
+output:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+switch case:
