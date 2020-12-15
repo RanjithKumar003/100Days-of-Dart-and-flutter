@@ -238,3 +238,41 @@ output:
 10
 
 switch case:
+
+syntax:
+```switch (con){
+    case (con) : statemwnt;```
+```void main() {
+  String sesson  = "rainy";
+  
+  switch (sesson){
+    case "summmer" : print("hot");
+      break;
+    case "winter" : print("cool");
+      break;
+    case "rainy" : print("too chill");
+      break;
+    default : print("it is not a sesson");
+  }
+}```
+
+output:
+too chill
+
+```void main() {
+  String sesson  = "burgger";
+  
+  switch (sesson){
+    case "summmer" : print("hot");
+      break;
+    case "winter" : print("cool");
+      break;
+    case "rainy" : print("too chill");
+      break;
+    default : print("it is not a sesson");
+  }
+}```
+
+output:
+it is not a sesson
+
