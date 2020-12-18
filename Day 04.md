@@ -276,3 +276,36 @@ too chill
 output:
 it is not a sesson
 
+Assert:
+
+mostly it is not used anywhere
+
+void main() {
+  String value = "";
+  assert(value != "", "it must not be empty");
+  """--enable = assert"""        it is use in while we run in local machine.   
+}
+
+Exception handling:
+
+```void main() {
+  int result = 1~/0;
+  print(result);
+}```
+
+output:\
+error which shows in red color as a machine = : 
+Unsupported operation: Result of truncating division is Infinity: 1 ~/ 0Error: Unsupported operation: Result of truncating division is Infinity: 1 ~/ 0
+
+```void main() {
+  try{
+    int result = 1~/0;
+    print(result);
+  }catch(error){
+    print(error);
+  }
+}```
+
+output:
+same error which in white color, handled by user:  
+Unsupported operation: Result of truncating division is Infinity: 1 ~/ 0
